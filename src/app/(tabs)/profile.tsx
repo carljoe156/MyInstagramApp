@@ -46,6 +46,13 @@ export default function ProfileScreen() {
         onChangeText={setUsername}
         className="border border-gray-300 p-3 rounded-md "
       />
+      <Text className="mb-2 text-gray-500 font-semibold">Username</Text>
+      <TextInput
+        placeholder=""
+        value={""}
+        onChangeText={""}
+        className="border border-gray-300 p-3 rounded-md "
+      />
 
       {/* Button */}
       <View className="gap-2 mt-auto">
